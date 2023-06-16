@@ -1,7 +1,7 @@
 # Форма для поиска контактов
 FullStack приложение с формой на Vue 3 для поиска контактов через API на Node.js с использованием валидации в обоих частях приложения.
 
-## Backend Node.js
+## Backend / Node.js
 ### Используемые библиотеки
 - express
 - cors
@@ -9,8 +9,8 @@ FullStack приложение с формой на Vue 3 для поиска к
 - validator
 
 #### Запуск
-В папке backend выполнить команду `node index.js`
+В папке backend выполнить команду `npm install` и `node index.js`
 
-## Frontend Vue 3
+## Frontend / Vue 3
 #### Запуск
 В папке frontend выполнить команды `npm install` и `npm run serve`

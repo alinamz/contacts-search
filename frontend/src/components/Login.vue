@@ -14,7 +14,7 @@
           type="email"
           class="login__input"
         />
-        <span v-if="v$.form.email.$error" class="login__span">
+        <span v-if="v$.form.email.$error && (v$.form.email.$model !== '')" class="login__span">
           <template v-if="v$.form.$errors && v$.form.$errors.length">
             Некорректный email
           </template>
@@ -30,7 +30,7 @@
           class="login__input"
           v-sixNumbersMask
         />
-        <span v-if="v$.form.number.$error" class="login__span">
+        <span v-if="v$.form.number.$error && (v$.form.number.$model !== '')" class="login__span">
           <template v-if="v$.form.$errors && v$.form.$errors.length">
             Номер должен состоять из 6 цифр
           </template>
